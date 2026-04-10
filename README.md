@@ -8,7 +8,7 @@ GUI shifts are split into morning and evening shift rotations for simplicity and
 
 With availability saved, a "rota" can be generated and sense checked by the user. CSV functions are currently used by the "GUI" code but can be exchanged for "CSP" functions.
 
-_Issues_
+# Issues
 * Both algorithms are currently "hungry" consuming all optimal resources, heuristic fix by changing week date order, starting on a saturday.
 * GUI is minimalistic and only shows morning or evening shifts, no hourly break-down.
 * Staff members are hard coded and confusing to implement for a standard user
