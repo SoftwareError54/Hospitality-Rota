@@ -7,3 +7,12 @@ Staff lists and skills are hard coded within the CMV and CSP files along with a 
 GUI shifts are split into morning and evening shift rotations for simplicity and user inference to case by case relevance.
 
 With availability saved, a "rota" can be generated and sense checked by the user. CSV functions are currently used by the "GUI" code but can be exchanged for "CSP" functions.
+
+_Issues_
+* Both algorithms are currently "hungry" consuming all optimal resources, heuristic fix by changing week date order, starting on a saturday.
+* GUI is minimalistic and only shows morning or evening shifts, no hourly break-down.
+* Staff members are hard coded and confusing to implement for a standard user
+  1. Build staff as entities
+  2. Use OOP factories to build staff members
+  3. Implement Add staff features to GUI
+  4. Add skill assignment functionality to GUI
